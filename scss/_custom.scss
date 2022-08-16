@@ -1,0 +1,17 @@
+#header{
+    #logo{
+        img{
+            @include media-breakpoint-down(lg){
+                height: 30px !important;
+            }
+        }
+    }
+}
+.section{
+    @include media-breakpoint-down(md){
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+}
+
+
